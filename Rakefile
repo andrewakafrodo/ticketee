@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Ticketee::Application.load_tasks
+EdgeTicketee::Application.load_tasks

@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ <%= key_value :name, "'Chicago'" %> }, { <%= key_value :name, "'Copenhagen'" %> }])
 #   Mayor.create(<%= key_value :name, "'Daley'" %>, <%= key_value :city, "cities.first" %>)
+
+admin_user = User.create(:email => "admin@ticketee.com",
+                         :password => "password")
+admin_user.admin = true
+admin_user.confirm!
+
+Project.create(:name => "Ticketee Beta")

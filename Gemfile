@@ -28,4 +28,4 @@ end
 
 gem 'devise', '~> 1.4.3'
 gem 'cancan'
-gem 'paperclip'
+gem 'paperclip', '2.4.2'

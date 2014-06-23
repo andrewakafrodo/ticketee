@@ -21,4 +21,6 @@ EdgeTicketee::Application.routes.draw do
       resources :permissions
     end 
   end
+  
+  resources :files
 end
